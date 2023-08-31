@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+
+.container{
+	width:1170px;
+	margin:auto;
+	
+}
+
+
+
+.box33{
+	width:33.33%;
+	float:left;
+	padding:15px;
+	background-image:url('../images/18.jpg');
+	background-position:top;
+	background-size:cover;
+	background-attachment:fixed;
+	text-align:justify;
+	border:3px dashed black;
+	margin:15px 0;
+}
+
+
+.box25{
+	width:25%;
+	float:right;
+	padding:15px;
+	color:black;
+	background-image:url('../images/19.jpg');
+	background-position:center;
+	background-size:cover;
+	text-align:justify;
+	text-align:justify;
+	border:3px dashed black;
+	margin:15px 0;
+}
+
+.box50{
+	width:50%;
+	float:left;
+	padding:15px;
+	background: rgb(247,2,109);
+	background: linear-gradient(90deg, rgba(247,2,109,1) 0%, rgba(147,191,242,0.7905287114845938) 100%);
+	text-align:justify;
+	border:3px dashed black;
+	margin:15px 0;
+}
+
+.box100{
+	width:100%;
+	float:left;
+	padding:15px;
+	margin:80px;
+	background-color:#E0BBE4;
+	border:3px dashed black;
+}
+
+
+
+.bg-imgs{
+	
+	padding:0;
+	margin:30px 0;
+	background-image:url(../images/11.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+	
+
+}
+
+.bg-fix{
+	padding: 0;
+	margin:15px 0;
+	background-image:url(../images/16.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+
+
+.bg-colors{
+	background:rgba(245, 39, 145, 0.33);
+}
+
+.bg-gradient{background: rgb(247,2,109);
+background: linear-gradient(90deg, rgba(247,2,109,0.555234593837535) 0%, rgba(147,191,242,0.5804446778711485) 100%);
+}
+
+.bg-gradient1{
+background: rgb(0,194,240);
+background: linear-gradient(90deg, rgba(0,194,240,1) 0%, rgba(14,14,14,0.29735644257703087) 100%);
+}
+
+.box50a{
+	width:calc(50% - 200px);
+	float:left;
+	padding:50px;
+	float:left;
+	margin:100px;
+	background-color:#EBBCC9;
+	border:8px solid white;
+	
+
+}
+
+
+
+
+
+
+.clearfix{
+	clear:both;
+}
+
+p{
+	 font-family:'poppins';
+}
+
+
+
+button{
+	border:2px solid black;
+	margin:10px;
+	padding:5px;
+	background-color:#D3D3D3;
+	border-radius:25px;
+	
+}
+
+
+.circle-icon1 {
+    background-color:transparent;
+	border: 2px solid white;
+	width:50px;
+	height:50px;
+    padding:auto;
+	margin:auto 45%;
+    border-radius:50%;
+	color:black;
+	text-align:center;
+	display:block;
+	line-height:50px;
+}
+
+.icon{
+	border: 2px solid white;
+	width:50px;
+	height:50px;
+    padding:auto;
+	margin:-55px auto 15px;
+	border-radius:50%;
+	color:white;
+	text-align:center;
+	display:block;
+	line-height:50px;
+	
+}
+
+	@font-face{
+		 font-family: 'Alegreya Sans';
+	src:url('../fonts/AlegreyaSans-BlackItalic.woff');
+	}
+
+h2{
+	 font-family: 'Alegreya Sans';
+}
